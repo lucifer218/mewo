@@ -1,0 +1,106 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>貓貓在哪裡-台北篇</title>
+<style type="text/css">
+body {
+	overflow-y:scroll;
+}
+#whole {
+	margin: auto;
+	height: 100%;
+	width: 1024px;
+}
+#l {
+	margin: 20px;
+	padding: 14px;
+	height: 600px;
+	width: 700px;
+	float: left;
+}
+#r {
+	margin: 20px;
+	padding: 14px;
+	height: 600px;
+	width: 188px;
+	float: left;
+}
+body {
+	background-image: url(image/back.jpg);
+	background-repeat: repeat;
+}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+#apDiv1 {
+	position: absolute;
+	left: 101px;
+	top: 2px;
+	width: 226px;
+	height: 64px;
+	z-index: 1;
+}
+#apDiv2 {
+	position: absolute;
+	left: 934px;
+	top: 597px;
+	width: 48px;
+	height: 34px;
+	z-index: 2;
+}
+</style>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onload="MM_preloadImages('image/btn_index_1.png','image/btn_map_1.png','image/btn_album_1.png','image/mailto_1.png')">
+<div id="apDiv1"><img src="image/title.png" width="252" height="80" /></div>
+
+<div id="whole">
+  <div id="l">
+    <iframe src="me.html" name="ifl" width="680" height="600" align="right" scrolling="no" frameborder="0" id="ifl" mane:="mane:""ifl"></iframe>
+  </div>
+  <div id="r"><p><a href="me.html" target="ifl" onmouseover="MM_swapImage('Image1','','image/btn_index_1.png',1)" onmouseout="MM_swapImgRestore()">	&nbsp;&nbsp; &nbsp;<img src="image/btn_index.png" name="Image1" width="125" height="81" id="Image1" /></a></p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p><a href="map.html" target="ifl" onmouseover="MM_swapImage('Image2','','image/btn_map_1.png',1)" onmouseout="MM_swapImgRestore()">	&nbsp;&nbsp;	&nbsp;	&nbsp;&nbsp;&nbsp;	&nbsp;	&nbsp;	&nbsp;<img src="image/btn_map.png" width="125" height="81" id="Image2"/></a></p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+  <p><a href="album.html" target="ifl" onmouseover="MM_swapImage('Image3','','image/btn_album_1.png',1)" onmouseout="MM_swapImgRestore()">	&nbsp;&nbsp;	<img src="image/btn_album.png" name="Image3" width="125" height="81" id="Image3" />
+    </a>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<div id="apDiv2"><a href="mailto:102052001@live.asia.edu.tw" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image5','','image/mailto_1.png',1)"><img src="image/mailto.png" name="Image5" width="75" height="50" id="Image5" /></a></div>
+  </div>
+</div>
+</body>
+</html>
